@@ -1,0 +1,26 @@
+    public static void main(String[] args) {
+
+
+driver.get("https://www.google.co.il");//כניסה לכרום
+        driver.mangage().window().maximize(),//הגדלה של המסך
+        thread.sleep(millis 3000);// המתנה של 3 שניות להעלאת האתר.
+        driver.get("https://automationpractice.com/index.php");//כניסה לאתר הנבדק
+
+
+
+        WebElement searchtextbox  = Driver.FindElement(by Xpath ("//*[@id=\"email_create\"]"));//שורת מייל
+        searchtextbox.sendkeys ("eyaldannygil@walla.co.il");// הזנת מייל
+        thread.sleep(millis 5000);
+
+
+        WebElement Regbtn = Driver.FindElement(by Xpath ("//*[@id=\"SubmitCreate\"]/span/text()"));
+        Regbtn.click// לחיצה על כפתור המייל
+        
+          ID מגדר id_gender1  
+ID  שם פרטי  customer_firstname
+NAME   שם משפחה customer_lastname
+PASSWORD ID passwd
+ID     יום לידה days
+NAME  חודש months = נבחר MARCH
+ID   שנה years  נבחר 1990  
+Sighup- xpath //*[@id="newsletter"]
